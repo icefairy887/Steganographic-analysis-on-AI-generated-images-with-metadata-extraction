@@ -1,4 +1,4 @@
-# \# Steganographic Analysis of AI-Generated Images with Metadata Extraction
+# Steganographic Analysis of AI-Generated Images with Metadata Extraction
 
 # 
 
