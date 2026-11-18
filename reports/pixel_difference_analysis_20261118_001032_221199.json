@@ -1,0 +1,23 @@
+{
+  "analysis": "Pixel difference analysis",
+  "timestamp_utc": "2026-11-18T00:10:32.221199+00:00",
+  "exhibits": [
+    "exhibit-b",
+    "exhibit-c"
+  ],
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "total_pixels": 1572528,
+  "changed_pixels": 1571823,
+  "changed_percentage": 99.9552,
+  "mean_absolute_error": 32.268663,
+  "root_mean_square_error": 53.462449,
+  "maximum_channel_difference": 244,
+  "outputs": {
+    "raw_difference": "C:\\Users\\brook\\OneDrive\\Desktop\\metadata-steg-forensics-ai-gen-images\\reports\\bc_pixel_difference_20261118_001032_221199.png",
+    "enhanced_difference": "C:\\Users\\brook\\OneDrive\\Desktop\\metadata-steg-forensics-ai-gen-images\\reports\\bc_enhanced_difference_20261118_001032_221199.png",
+    "heatmap": "C:\\Users\\brook\\OneDrive\\Desktop\\metadata-steg-forensics-ai-gen-images\\reports\\bc_difference_heatmap_20261118_001032_221199.png"
+  }
+}

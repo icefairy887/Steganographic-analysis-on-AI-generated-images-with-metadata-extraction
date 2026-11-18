@@ -1,0 +1,119 @@
+{
+  "analysis": "caBX chunk analysis",
+  "timestamp_utc": "2026-11-18T00:01:08.314706+00:00",
+  "source_directory": "C:\\Users\\brook\\OneDrive\\Desktop\\metadata-steg-forensics-ai-gen-images\\sources",
+  "exhibits": [
+    {
+      "exhibit": "exhibit-a",
+      "caBX_chunks": [
+        {
+          "offset": 33,
+          "size": 23654,
+          "sha256": "b80705b144281e76c9791c699577d22469287b4f77c0b9dc84b17a35e8bbf354",
+          "first_32_bytes_hex": "00005c666a756d620000001e6a756d646332706100110010800000aa00389b71",
+          "first_32_bytes_ascii": "..\\fjumb....jumdc2pa.........8.q"
+        }
+      ]
+    },
+    {
+      "exhibit": "exhibit-b",
+      "caBX_chunks": [
+        {
+          "offset": 33,
+          "size": 23654,
+          "sha256": "bda80a12120ee31ac4cb1875ef25a1b46d7deb5e34c880845a7044c3202e61ef",
+          "first_32_bytes_hex": "00005c666a756d620000001e6a756d646332706100110010800000aa00389b71",
+          "first_32_bytes_ascii": "..\\fjumb....jumdc2pa.........8.q"
+        }
+      ]
+    },
+    {
+      "exhibit": "exhibit-c",
+      "caBX_chunks": [
+        {
+          "offset": 33,
+          "size": 21881,
+          "sha256": "52b3a77dcb32fb032673fa52190a311acc0786e13d9b3c67beefc6639770af5c",
+          "first_32_bytes_hex": "000055796a756d620000001e6a756d646332706100110010800000aa00389b71",
+          "first_32_bytes_ascii": "..Uyjumb....jumdc2pa.........8.q"
+        }
+      ]
+    },
+    {
+      "exhibit": "exhibit-d",
+      "caBX_chunks": [
+        {
+          "offset": 33,
+          "size": 21881,
+          "sha256": "03bfc8126ad4fab48a4a2ac60857c854a22cf06fa584fe9e60e7154fb84d1085",
+          "first_32_bytes_hex": "000055796a756d620000001e6a756d646332706100110010800000aa00389b71",
+          "first_32_bytes_ascii": "..Uyjumb....jumdc2pa.........8.q"
+        }
+      ]
+    },
+    {
+      "exhibit": "exhibit-e",
+      "caBX_chunks": [
+        {
+          "offset": 33,
+          "size": 23654,
+          "sha256": "23707e2d223391c79b445e55407484c389fd7cf22eed3781d1456a53e1aab4dc",
+          "first_32_bytes_hex": "00005c666a756d620000001e6a756d646332706100110010800000aa00389b71",
+          "first_32_bytes_ascii": "..\\fjumb....jumdc2pa.........8.q"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-b",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-c",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-d",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-e",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-c",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-d",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-e",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-c",
+      "exhibit_b": "exhibit-d",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-c",
+      "exhibit_b": "exhibit-e",
+      "identical_caBX_payloads": false
+    },
+    {
+      "exhibit_a": "exhibit-d",
+      "exhibit_b": "exhibit-e",
+      "identical_caBX_payloads": false
+    }
+  ]
+}

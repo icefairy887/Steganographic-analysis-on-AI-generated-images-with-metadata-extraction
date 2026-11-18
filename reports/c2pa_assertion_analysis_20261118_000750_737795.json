@@ -1,0 +1,377 @@
+{
+  "analysis": "C2PA assertion comparison",
+  "timestamp_utc": "2026-11-18T00:07:50.737795+00:00",
+  "records": [
+    {
+      "exhibit": "exhibit-a",
+      "sha256": "4d0e246437e9952490e9c0f50b969b23f375af11cb35d60784d3c546b1f06775",
+      "status": "parsed",
+      "manifest_id": "urn:c2pa:25a6064c-8b55-424c-96c2-615e6097d179",
+      "claim_generators": [
+        {
+          "icon": {
+            "format": "image/svg+xml",
+            "identifier": "self#jumbf=/c2pa/urn:c2pa:25a6064c-8b55-424c-96c2-615e6097d179/c2pa.assertions/c2pa.icon"
+          },
+          "name": "OpenAI Media Service API",
+          "org.contentauth.c2pa_rs": "0.79.2",
+          "specVersion": "2.2.0"
+        }
+      ],
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "when": "2026-11-16T19:15:15.950918205Z"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-11-16T19:15:15.950924748Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-11-16T19:15:15.945738522Z"
+        }
+      ],
+      "all_actions_included": false,
+      "signature": {
+        "alg": "Ps256",
+        "cert_serial_number": "15483366567143162630298612244848338035",
+        "common_name": "OpenAI Media Service",
+        "issuer": "OpenAI OpCo, LLC",
+        "time": "2026-11-16T19:15:15.972029+00:00"
+      },
+      "validation_status": [
+        {
+          "code": "signingCredential.untrusted",
+          "explanation": "signing certificate untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:25a6064c-8b55-424c-96c2-615e6097d179/c2pa.signature"
+        }
+      ],
+      "error": null
+    },
+    {
+      "exhibit": "exhibit-b",
+      "sha256": "94079e9dfec6e2c8dfba795363eeca357cb7df230e6b8f76358ac42f6a924b96",
+      "status": "parsed",
+      "manifest_id": "urn:c2pa:8852561d-e3e5-45b4-af72-933b8fcb0b68",
+      "claim_generators": [
+        {
+          "icon": {
+            "format": "image/svg+xml",
+            "identifier": "self#jumbf=/c2pa/urn:c2pa:8852561d-e3e5-45b4-af72-933b8fcb0b68/c2pa.assertions/c2pa.icon"
+          },
+          "name": "OpenAI Media Service API",
+          "org.contentauth.c2pa_rs": "0.79.2",
+          "specVersion": "2.2.0"
+        }
+      ],
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "when": "2026-11-06T02:50:44.403924120Z"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-11-06T02:50:44.403930102Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-11-06T02:50:44.398015068Z"
+        }
+      ],
+      "all_actions_included": false,
+      "signature": {
+        "alg": "Ps256",
+        "cert_serial_number": "15483366567143162630298612244848338035",
+        "common_name": "OpenAI Media Service",
+        "issuer": "OpenAI OpCo, LLC",
+        "time": "2026-11-06T02:50:44.427086+00:00"
+      },
+      "validation_status": [
+        {
+          "code": "signingCredential.untrusted",
+          "explanation": "signing certificate untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:8852561d-e3e5-45b4-af72-933b8fcb0b68/c2pa.signature"
+        }
+      ],
+      "error": null
+    },
+    {
+      "exhibit": "exhibit-c",
+      "sha256": "3b5977d5eb9096b49df69ff3a14fc6febb5cda40e02d5624b12f8da78d9eb314",
+      "status": "parsed",
+      "manifest_id": "urn:c2pa:4f362f95-5283-4168-96e7-e5016134bbb6",
+      "claim_generators": [
+        {
+          "icon": {
+            "format": "image/svg+xml",
+            "identifier": "self#jumbf=/c2pa/urn:c2pa:4f362f95-5283-4168-96e7-e5016134bbb6/c2pa.assertions/c2pa.icon"
+          },
+          "name": "OpenAI Media Service API",
+          "org.contentauth.c2pa_rs": "0.79.2",
+          "specVersion": "2.2.0"
+        }
+      ],
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "when": "2026-11-06T02:49:34.955965598Z"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-11-06T02:49:34.955971754Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-11-06T02:49:34.954279010Z"
+        }
+      ],
+      "all_actions_included": false,
+      "signature": {
+        "alg": "Es256",
+        "cert_serial_number": "471440979205905794604524502504016020624908622401",
+        "common_name": "OpenAI Media Service",
+        "issuer": "OpenAI OpCo, LLC",
+        "time": "2026-11-06T02:49:34.980451+00:00"
+      },
+      "validation_status": [
+        {
+          "code": "signingCredential.untrusted",
+          "explanation": "signing certificate untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:4f362f95-5283-4168-96e7-e5016134bbb6/c2pa.signature"
+        }
+      ],
+      "error": null
+    },
+    {
+      "exhibit": "exhibit-d",
+      "sha256": "ff2226092f517d351b7bd1c08fa83880309133658495a2be41bc9e9d1271a134",
+      "status": "parsed",
+      "manifest_id": "urn:c2pa:62b7d434-e12e-4adb-9ceb-e0cbfe3e867f",
+      "claim_generators": [
+        {
+          "icon": {
+            "format": "image/svg+xml",
+            "identifier": "self#jumbf=/c2pa/urn:c2pa:62b7d434-e12e-4adb-9ceb-e0cbfe3e867f/c2pa.assertions/c2pa.icon"
+          },
+          "name": "OpenAI Media Service API",
+          "org.contentauth.c2pa_rs": "0.79.2",
+          "specVersion": "2.2.0"
+        }
+      ],
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "when": "2026-10-20T17:39:27.707993891Z"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-10-20T17:39:27.707997967Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-10-20T17:39:27.706036086Z"
+        }
+      ],
+      "all_actions_included": false,
+      "signature": {
+        "alg": "Es256",
+        "cert_serial_number": "471440979205905794604524502504016020624908622401",
+        "common_name": "OpenAI Media Service",
+        "issuer": "OpenAI OpCo, LLC",
+        "time": "2026-10-20T17:39:27.721221+00:00"
+      },
+      "validation_status": [
+        {
+          "code": "signingCredential.untrusted",
+          "explanation": "signing certificate untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:62b7d434-e12e-4adb-9ceb-e0cbfe3e867f/c2pa.signature"
+        }
+      ],
+      "error": null
+    },
+    {
+      "exhibit": "exhibit-e",
+      "sha256": "6169701af38d24e160334f9df9aff8c24624bb34f962800d4cc5117a07d6dd66",
+      "status": "parsed",
+      "manifest_id": "urn:c2pa:4c8139b3-e788-4326-a2c7-252ec10cb65e",
+      "claim_generators": [
+        {
+          "icon": {
+            "format": "image/svg+xml",
+            "identifier": "self#jumbf=/c2pa/urn:c2pa:4c8139b3-e788-4326-a2c7-252ec10cb65e/c2pa.assertions/c2pa.icon"
+          },
+          "name": "OpenAI Media Service API",
+          "org.contentauth.c2pa_rs": "0.79.2",
+          "specVersion": "2.2.0"
+        }
+      ],
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "when": "2026-10-17T20:58:29.312961422Z"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-10-17T20:58:29.312966013Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-10-17T20:58:29.307746124Z"
+        }
+      ],
+      "all_actions_included": false,
+      "signature": {
+        "alg": "Ps256",
+        "cert_serial_number": "15483366567143162630298612244848338035",
+        "common_name": "OpenAI Media Service",
+        "issuer": "OpenAI OpCo, LLC",
+        "time": "2026-10-17T20:58:29.332471+00:00"
+      },
+      "validation_status": [
+        {
+          "code": "signingCredential.untrusted",
+          "explanation": "signing certificate untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:4c8139b3-e788-4326-a2c7-252ec10cb65e/c2pa.signature"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "signing_groups": [
+    {
+      "algorithm": "Ps256",
+      "certificate_serial": "15483366567143162630298612244848338035",
+      "exhibits": [
+        "exhibit-a",
+        "exhibit-b",
+        "exhibit-e"
+      ]
+    },
+    {
+      "algorithm": "Es256",
+      "certificate_serial": "471440979205905794604524502504016020624908622401",
+      "exhibits": [
+        "exhibit-c",
+        "exhibit-d"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "exhibits": [
+        "exhibit-a",
+        "exhibit-b"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": true,
+      "same_certificate_serial": true
+    },
+    {
+      "exhibits": [
+        "exhibit-a",
+        "exhibit-c"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    },
+    {
+      "exhibits": [
+        "exhibit-a",
+        "exhibit-d"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    },
+    {
+      "exhibits": [
+        "exhibit-a",
+        "exhibit-e"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": true,
+      "same_certificate_serial": true
+    },
+    {
+      "exhibits": [
+        "exhibit-b",
+        "exhibit-c"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    },
+    {
+      "exhibits": [
+        "exhibit-b",
+        "exhibit-d"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    },
+    {
+      "exhibits": [
+        "exhibit-b",
+        "exhibit-e"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": true,
+      "same_certificate_serial": true
+    },
+    {
+      "exhibits": [
+        "exhibit-c",
+        "exhibit-d"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": true,
+      "same_certificate_serial": true
+    },
+    {
+      "exhibits": [
+        "exhibit-c",
+        "exhibit-e"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    },
+    {
+      "exhibits": [
+        "exhibit-d",
+        "exhibit-e"
+      ],
+      "same_action_sequence": true,
+      "same_signature_algorithm": false,
+      "same_certificate_serial": false
+    }
+  ]
+}

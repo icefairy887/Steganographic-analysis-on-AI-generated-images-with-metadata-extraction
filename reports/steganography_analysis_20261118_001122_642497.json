@@ -1,0 +1,884 @@
+{
+  "analysis": "Steganography statistical screening",
+  "timestamp_utc": "2026-11-18T00:11:22.642497+00:00",
+  "methodology": {
+    "channels": "RGB",
+    "bit_planes": "0 through 7",
+    "entropy": "Binary Shannon entropy per bit plane",
+    "transition_ratio": "Adjacent bit changes in raster order",
+    "signature_detection": "First 64 LSB-extracted bytes per RGB channel, MSB-first",
+    "limitations": "Statistical indicators do not prove hidden data. The scan does not exhaust all steganography methods, bit orders, offsets, or payload encodings."
+  },
+  "exhibits": [
+    {
+      "exhibit": "exhibit-a",
+      "status": "analyzed",
+      "channels": {
+        "R": {
+          "bit_0": {
+            "zeros": 789662,
+            "ones": 783202,
+            "entropy": 0.999988,
+            "transition_ratio": 0.498469
+          },
+          "bit_1": {
+            "zeros": 792611,
+            "ones": 780253,
+            "entropy": 0.999955,
+            "transition_ratio": 0.492265
+          },
+          "bit_2": {
+            "zeros": 797244,
+            "ones": 775620,
+            "entropy": 0.999864,
+            "transition_ratio": 0.454619
+          },
+          "bit_3": {
+            "zeros": 803093,
+            "ones": 769771,
+            "entropy": 0.999676,
+            "transition_ratio": 0.379924
+          },
+          "bit_4": {
+            "zeros": 793608,
+            "ones": 779256,
+            "entropy": 0.99994,
+            "transition_ratio": 0.279501
+          },
+          "bit_5": {
+            "zeros": 871152,
+            "ones": 701712,
+            "entropy": 0.991612,
+            "transition_ratio": 0.177839
+          },
+          "bit_6": {
+            "zeros": 1016268,
+            "ones": 556596,
+            "entropy": 0.937481,
+            "transition_ratio": 0.089027
+          },
+          "bit_7": {
+            "zeros": 1276970,
+            "ones": 295894,
+            "entropy": 0.697531,
+            "transition_ratio": 0.029395
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.593959
+          }
+        },
+        "G": {
+          "bit_0": {
+            "zeros": 789382,
+            "ones": 783482,
+            "entropy": 0.99999,
+            "transition_ratio": 0.498693
+          },
+          "bit_1": {
+            "zeros": 795885,
+            "ones": 776979,
+            "entropy": 0.999896,
+            "transition_ratio": 0.486786
+          },
+          "bit_2": {
+            "zeros": 808480,
+            "ones": 764384,
+            "entropy": 0.999433,
+            "transition_ratio": 0.436335
+          },
+          "bit_3": {
+            "zeros": 813195,
+            "ones": 759669,
+            "entropy": 0.999164,
+            "transition_ratio": 0.352726
+          },
+          "bit_4": {
+            "zeros": 871832,
+            "ones": 701032,
+            "entropy": 0.991477,
+            "transition_ratio": 0.252316
+          },
+          "bit_5": {
+            "zeros": 957363,
+            "ones": 615501,
+            "entropy": 0.965649,
+            "transition_ratio": 0.14646
+          },
+          "bit_6": {
+            "zeros": 1226139,
+            "ones": 346725,
+            "entropy": 0.760973,
+            "transition_ratio": 0.06958
+          },
+          "bit_7": {
+            "zeros": 1388382,
+            "ones": 184482,
+            "entropy": 0.521522,
+            "transition_ratio": 0.019658
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.208878
+          }
+        },
+        "B": {
+          "bit_0": {
+            "zeros": 797338,
+            "ones": 775526,
+            "entropy": 0.999861,
+            "transition_ratio": 0.493894
+          },
+          "bit_1": {
+            "zeros": 819264,
+            "ones": 753600,
+            "entropy": 0.998742,
+            "transition_ratio": 0.461405
+          },
+          "bit_2": {
+            "zeros": 880102,
+            "ones": 692762,
+            "entropy": 0.989742,
+            "transition_ratio": 0.383987
+          },
+          "bit_3": {
+            "zeros": 978225,
+            "ones": 594639,
+            "entropy": 0.956661,
+            "transition_ratio": 0.283365
+          },
+          "bit_4": {
+            "zeros": 1043961,
+            "ones": 528903,
+            "entropy": 0.921202,
+            "transition_ratio": 0.188108
+          },
+          "bit_5": {
+            "zeros": 1123207,
+            "ones": 449657,
+            "entropy": 0.863345,
+            "transition_ratio": 0.107761
+          },
+          "bit_6": {
+            "zeros": 1302424,
+            "ones": 270440,
+            "entropy": 0.662126,
+            "transition_ratio": 0.049014
+          },
+          "bit_7": {
+            "zeros": 1405048,
+            "ones": 167816,
+            "entropy": 0.489864,
+            "transition_ratio": 0.015115
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.745546
+          }
+        }
+      },
+      "signature_candidates": [],
+      "error": null,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "exhibit": "exhibit-b",
+      "status": "analyzed",
+      "channels": {
+        "R": {
+          "bit_0": {
+            "zeros": 785389,
+            "ones": 787139,
+            "entropy": 0.999999,
+            "transition_ratio": 0.500629
+          },
+          "bit_1": {
+            "zeros": 786620,
+            "ones": 785908,
+            "entropy": 1.0,
+            "transition_ratio": 0.497782
+          },
+          "bit_2": {
+            "zeros": 786573,
+            "ones": 785955,
+            "entropy": 1.0,
+            "transition_ratio": 0.471777
+          },
+          "bit_3": {
+            "zeros": 766320,
+            "ones": 806208,
+            "entropy": 0.999536,
+            "transition_ratio": 0.411938
+          },
+          "bit_4": {
+            "zeros": 770022,
+            "ones": 802506,
+            "entropy": 0.999692,
+            "transition_ratio": 0.326216
+          },
+          "bit_5": {
+            "zeros": 762131,
+            "ones": 810397,
+            "entropy": 0.99932,
+            "transition_ratio": 0.243491
+          },
+          "bit_6": {
+            "zeros": 926835,
+            "ones": 645693,
+            "entropy": 0.976819,
+            "transition_ratio": 0.13828
+          },
+          "bit_7": {
+            "zeros": 981970,
+            "ones": 590558,
+            "entropy": 0.954836,
+            "transition_ratio": 0.043377
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.569216
+          }
+        },
+        "G": {
+          "bit_0": {
+            "zeros": 787552,
+            "ones": 784976,
+            "entropy": 0.999998,
+            "transition_ratio": 0.499945
+          },
+          "bit_1": {
+            "zeros": 787515,
+            "ones": 785013,
+            "entropy": 0.999998,
+            "transition_ratio": 0.496411
+          },
+          "bit_2": {
+            "zeros": 786849,
+            "ones": 785679,
+            "entropy": 1.0,
+            "transition_ratio": 0.471921
+          },
+          "bit_3": {
+            "zeros": 776163,
+            "ones": 796365,
+            "entropy": 0.999881,
+            "transition_ratio": 0.417584
+          },
+          "bit_4": {
+            "zeros": 807126,
+            "ones": 765402,
+            "entropy": 0.999492,
+            "transition_ratio": 0.334146
+          },
+          "bit_5": {
+            "zeros": 651358,
+            "ones": 921170,
+            "entropy": 0.978659,
+            "transition_ratio": 0.247138
+          },
+          "bit_6": {
+            "zeros": 1083104,
+            "ones": 489424,
+            "entropy": 0.894593,
+            "transition_ratio": 0.136494
+          },
+          "bit_7": {
+            "zeros": 1349649,
+            "ones": 222879,
+            "entropy": 0.588759,
+            "transition_ratio": 0.064321
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.195331
+          }
+        },
+        "B": {
+          "bit_0": {
+            "zeros": 788720,
+            "ones": 783808,
+            "entropy": 0.999993,
+            "transition_ratio": 0.499427
+          },
+          "bit_1": {
+            "zeros": 790531,
+            "ones": 781997,
+            "entropy": 0.999979,
+            "transition_ratio": 0.493341
+          },
+          "bit_2": {
+            "zeros": 792206,
+            "ones": 780322,
+            "entropy": 0.999959,
+            "transition_ratio": 0.463408
+          },
+          "bit_3": {
+            "zeros": 794122,
+            "ones": 778406,
+            "entropy": 0.999928,
+            "transition_ratio": 0.400527
+          },
+          "bit_4": {
+            "zeros": 843287,
+            "ones": 729241,
+            "entropy": 0.996203,
+            "transition_ratio": 0.308672
+          },
+          "bit_5": {
+            "zeros": 579936,
+            "ones": 992592,
+            "entropy": 0.94974,
+            "transition_ratio": 0.197946
+          },
+          "bit_6": {
+            "zeros": 1220247,
+            "ones": 352281,
+            "entropy": 0.767444,
+            "transition_ratio": 0.119671
+          },
+          "bit_7": {
+            "zeros": 1504210,
+            "ones": 68318,
+            "entropy": 0.257869,
+            "transition_ratio": 0.029119
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.774933
+          }
+        }
+      },
+      "signature_candidates": [],
+      "error": null,
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "exhibit": "exhibit-c",
+      "status": "analyzed",
+      "channels": {
+        "R": {
+          "bit_0": {
+            "zeros": 786047,
+            "ones": 786481,
+            "entropy": 1.0,
+            "transition_ratio": 0.50095
+          },
+          "bit_1": {
+            "zeros": 787310,
+            "ones": 785218,
+            "entropy": 0.999999,
+            "transition_ratio": 0.496706
+          },
+          "bit_2": {
+            "zeros": 782360,
+            "ones": 790168,
+            "entropy": 0.999982,
+            "transition_ratio": 0.46146
+          },
+          "bit_3": {
+            "zeros": 831469,
+            "ones": 741059,
+            "entropy": 0.997614,
+            "transition_ratio": 0.387031
+          },
+          "bit_4": {
+            "zeros": 616769,
+            "ones": 955759,
+            "entropy": 0.966214,
+            "transition_ratio": 0.282134
+          },
+          "bit_5": {
+            "zeros": 947717,
+            "ones": 624811,
+            "entropy": 0.969367,
+            "transition_ratio": 0.202606
+          },
+          "bit_6": {
+            "zeros": 1092384,
+            "ones": 480144,
+            "entropy": 0.887712,
+            "transition_ratio": 0.098477
+          },
+          "bit_7": {
+            "zeros": 1174575,
+            "ones": 397953,
+            "entropy": 0.816101,
+            "transition_ratio": 0.029341
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.202154
+          }
+        },
+        "G": {
+          "bit_0": {
+            "zeros": 787022,
+            "ones": 785506,
+            "entropy": 0.999999,
+            "transition_ratio": 0.50039
+          },
+          "bit_1": {
+            "zeros": 786625,
+            "ones": 785903,
+            "entropy": 1.0,
+            "transition_ratio": 0.496463
+          },
+          "bit_2": {
+            "zeros": 789284,
+            "ones": 783244,
+            "entropy": 0.999989,
+            "transition_ratio": 0.465669
+          },
+          "bit_3": {
+            "zeros": 765343,
+            "ones": 807185,
+            "entropy": 0.999489,
+            "transition_ratio": 0.398428
+          },
+          "bit_4": {
+            "zeros": 719743,
+            "ones": 852785,
+            "entropy": 0.994831,
+            "transition_ratio": 0.302522
+          },
+          "bit_5": {
+            "zeros": 741974,
+            "ones": 830554,
+            "entropy": 0.99771,
+            "transition_ratio": 0.215912
+          },
+          "bit_6": {
+            "zeros": 1152150,
+            "ones": 420378,
+            "entropy": 0.837602,
+            "transition_ratio": 0.106169
+          },
+          "bit_7": {
+            "zeros": 1471601,
+            "ones": 100927,
+            "entropy": 0.343824,
+            "transition_ratio": 0.038787
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.853322
+          }
+        },
+        "B": {
+          "bit_0": {
+            "zeros": 788098,
+            "ones": 784430,
+            "entropy": 0.999996,
+            "transition_ratio": 0.500635
+          },
+          "bit_1": {
+            "zeros": 788510,
+            "ones": 784018,
+            "entropy": 0.999994,
+            "transition_ratio": 0.493027
+          },
+          "bit_2": {
+            "zeros": 789430,
+            "ones": 783098,
+            "entropy": 0.999988,
+            "transition_ratio": 0.453833
+          },
+          "bit_3": {
+            "zeros": 783493,
+            "ones": 789035,
+            "entropy": 0.999991,
+            "transition_ratio": 0.375992
+          },
+          "bit_4": {
+            "zeros": 866946,
+            "ones": 705582,
+            "entropy": 0.992391,
+            "transition_ratio": 0.271682
+          },
+          "bit_5": {
+            "zeros": 459891,
+            "ones": 1112637,
+            "entropy": 0.871869,
+            "transition_ratio": 0.153334
+          },
+          "bit_6": {
+            "zeros": 1348632,
+            "ones": 223896,
+            "entropy": 0.590437,
+            "transition_ratio": 0.088425
+          },
+          "bit_7": {
+            "zeros": 1551773,
+            "ones": 20755,
+            "entropy": 0.10132,
+            "transition_ratio": 0.009735
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.273862
+          }
+        }
+      },
+      "signature_candidates": [],
+      "error": null,
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "exhibit": "exhibit-d",
+      "status": "analyzed",
+      "channels": {
+        "R": {
+          "bit_0": {
+            "zeros": 786676,
+            "ones": 786412,
+            "entropy": 1.0,
+            "transition_ratio": 0.49636
+          },
+          "bit_1": {
+            "zeros": 791278,
+            "ones": 781810,
+            "entropy": 0.999974,
+            "transition_ratio": 0.4774
+          },
+          "bit_2": {
+            "zeros": 769497,
+            "ones": 803591,
+            "entropy": 0.999661,
+            "transition_ratio": 0.429482
+          },
+          "bit_3": {
+            "zeros": 756412,
+            "ones": 816676,
+            "entropy": 0.998941,
+            "transition_ratio": 0.351679
+          },
+          "bit_4": {
+            "zeros": 769994,
+            "ones": 803094,
+            "entropy": 0.999681,
+            "transition_ratio": 0.249152
+          },
+          "bit_5": {
+            "zeros": 765385,
+            "ones": 807703,
+            "entropy": 0.999478,
+            "transition_ratio": 0.153877
+          },
+          "bit_6": {
+            "zeros": 776000,
+            "ones": 797088,
+            "entropy": 0.99987,
+            "transition_ratio": 0.085446
+          },
+          "bit_7": {
+            "zeros": 1060474,
+            "ones": 512614,
+            "entropy": 0.910646,
+            "transition_ratio": 0.032298
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.800118
+          }
+        },
+        "G": {
+          "bit_0": {
+            "zeros": 793683,
+            "ones": 779405,
+            "entropy": 0.999941,
+            "transition_ratio": 0.493571
+          },
+          "bit_1": {
+            "zeros": 807469,
+            "ones": 765619,
+            "entropy": 0.999489,
+            "transition_ratio": 0.459192
+          },
+          "bit_2": {
+            "zeros": 823710,
+            "ones": 749378,
+            "entropy": 0.998389,
+            "transition_ratio": 0.395279
+          },
+          "bit_3": {
+            "zeros": 843515,
+            "ones": 729573,
+            "entropy": 0.996212,
+            "transition_ratio": 0.304754
+          },
+          "bit_4": {
+            "zeros": 855197,
+            "ones": 717891,
+            "entropy": 0.994497,
+            "transition_ratio": 0.204575
+          },
+          "bit_5": {
+            "zeros": 981340,
+            "ones": 591748,
+            "entropy": 0.955292,
+            "transition_ratio": 0.120296
+          },
+          "bit_6": {
+            "zeros": 1102660,
+            "ones": 470428,
+            "entropy": 0.880123,
+            "transition_ratio": 0.054957
+          },
+          "bit_7": {
+            "zeros": 1342770,
+            "ones": 230318,
+            "entropy": 0.600786,
+            "transition_ratio": 0.013913
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.379263
+          }
+        },
+        "B": {
+          "bit_0": {
+            "zeros": 822374,
+            "ones": 750714,
+            "entropy": 0.998503,
+            "transition_ratio": 0.474179
+          },
+          "bit_1": {
+            "zeros": 900231,
+            "ones": 672857,
+            "entropy": 0.984877,
+            "transition_ratio": 0.395844
+          },
+          "bit_2": {
+            "zeros": 971295,
+            "ones": 601793,
+            "entropy": 0.959827,
+            "transition_ratio": 0.307254
+          },
+          "bit_3": {
+            "zeros": 1026884,
+            "ones": 546204,
+            "entropy": 0.931559,
+            "transition_ratio": 0.218582
+          },
+          "bit_4": {
+            "zeros": 1119351,
+            "ones": 453737,
+            "entropy": 0.866694,
+            "transition_ratio": 0.137437
+          },
+          "bit_5": {
+            "zeros": 1192515,
+            "ones": 380573,
+            "entropy": 0.798231,
+            "transition_ratio": 0.072691
+          },
+          "bit_6": {
+            "zeros": 1345260,
+            "ones": 227828,
+            "entropy": 0.596746,
+            "transition_ratio": 0.030563
+          },
+          "bit_7": {
+            "zeros": 1401572,
+            "ones": 171516,
+            "entropy": 0.496987,
+            "transition_ratio": 0.008628
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.424256
+          }
+        }
+      },
+      "signature_candidates": [],
+      "error": null,
+      "dimensions": [
+        1312,
+        1199
+      ]
+    },
+    {
+      "exhibit": "exhibit-e",
+      "status": "analyzed",
+      "channels": {
+        "R": {
+          "bit_0": {
+            "zeros": 763484,
+            "ones": 809604,
+            "entropy": 0.99938,
+            "transition_ratio": 0.449611
+          },
+          "bit_1": {
+            "zeros": 906082,
+            "ones": 667006,
+            "entropy": 0.983274,
+            "transition_ratio": 0.368977
+          },
+          "bit_2": {
+            "zeros": 601675,
+            "ones": 971413,
+            "entropy": 0.959775,
+            "transition_ratio": 0.302461
+          },
+          "bit_3": {
+            "zeros": 501248,
+            "ones": 1071840,
+            "entropy": 0.902896,
+            "transition_ratio": 0.224074
+          },
+          "bit_4": {
+            "zeros": 459871,
+            "ones": 1113217,
+            "entropy": 0.87172,
+            "transition_ratio": 0.169115
+          },
+          "bit_5": {
+            "zeros": 511128,
+            "ones": 1061960,
+            "entropy": 0.909652,
+            "transition_ratio": 0.134791
+          },
+          "bit_6": {
+            "zeros": 470955,
+            "ones": 1102133,
+            "entropy": 0.880535,
+            "transition_ratio": 0.101588
+          },
+          "bit_7": {
+            "zeros": 486367,
+            "ones": 1086721,
+            "entropy": 0.892224,
+            "transition_ratio": 0.071612
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.56589
+          }
+        },
+        "G": {
+          "bit_0": {
+            "zeros": 799589,
+            "ones": 773499,
+            "entropy": 0.999802,
+            "transition_ratio": 0.458225
+          },
+          "bit_1": {
+            "zeros": 757694,
+            "ones": 815394,
+            "entropy": 0.999029,
+            "transition_ratio": 0.383633
+          },
+          "bit_2": {
+            "zeros": 966341,
+            "ones": 606747,
+            "entropy": 0.961971,
+            "transition_ratio": 0.297819
+          },
+          "bit_3": {
+            "zeros": 614177,
+            "ones": 958911,
+            "entropy": 0.965075,
+            "transition_ratio": 0.240003
+          },
+          "bit_4": {
+            "zeros": 509409,
+            "ones": 1063679,
+            "entropy": 0.908495,
+            "transition_ratio": 0.166765
+          },
+          "bit_5": {
+            "zeros": 608067,
+            "ones": 965021,
+            "entropy": 0.962533,
+            "transition_ratio": 0.123252
+          },
+          "bit_6": {
+            "zeros": 519828,
+            "ones": 1053260,
+            "entropy": 0.915386,
+            "transition_ratio": 0.090474
+          },
+          "bit_7": {
+            "zeros": 612512,
+            "ones": 960576,
+            "entropy": 0.964391,
+            "transition_ratio": 0.063185
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 5.803551
+          }
+        },
+        "B": {
+          "bit_0": {
+            "zeros": 790202,
+            "ones": 782886,
+            "entropy": 0.999984,
+            "transition_ratio": 0.470271
+          },
+          "bit_1": {
+            "zeros": 835348,
+            "ones": 737740,
+            "entropy": 0.997221,
+            "transition_ratio": 0.402726
+          },
+          "bit_2": {
+            "zeros": 700484,
+            "ones": 872604,
+            "entropy": 0.991347,
+            "transition_ratio": 0.322275
+          },
+          "bit_3": {
+            "zeros": 683578,
+            "ones": 889510,
+            "entropy": 0.987603,
+            "transition_ratio": 0.253412
+          },
+          "bit_4": {
+            "zeros": 947951,
+            "ones": 625137,
+            "entropy": 0.969406,
+            "transition_ratio": 0.18962
+          },
+          "bit_5": {
+            "zeros": 630076,
+            "ones": 943012,
+            "entropy": 0.971262,
+            "transition_ratio": 0.115962
+          },
+          "bit_6": {
+            "zeros": 550782,
+            "ones": 1022306,
+            "entropy": 0.934182,
+            "transition_ratio": 0.084976
+          },
+          "bit_7": {
+            "zeros": 651528,
+            "ones": 921560,
+            "entropy": 0.978639,
+            "transition_ratio": 0.060686
+          },
+          "lsb_pairs": {
+            "unique_pairs": 128,
+            "pair_entropy": 6.143746
+          }
+        }
+      },
+      "signature_candidates": [],
+      "error": null,
+      "dimensions": [
+        1312,
+        1199
+      ]
+    }
+  ]
+}

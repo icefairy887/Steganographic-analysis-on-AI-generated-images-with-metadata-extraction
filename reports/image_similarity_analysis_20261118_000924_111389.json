@@ -1,0 +1,134 @@
+{
+  "analysis": "Image similarity analysis",
+  "timestamp_utc": "2026-11-18T00:09:24.111389+00:00",
+  "methodology": {
+    "pixel_hash": "SHA256 of decoded RGB pixel bytes",
+    "perceptual_hash": "64-bit difference hash",
+    "rmse": "RGB RMSE after center-crop and resize to 256x256",
+    "note": "Similarity metrics are indicators, not proof of common origin."
+  },
+  "exhibits": [
+    {
+      "exhibit": "exhibit-a",
+      "width": 1536,
+      "height": 1024,
+      "pixel_sha256": "5599faa224c0f17906e3586776a6a0b87ad9908c8cf8863e97e6478181b9c348",
+      "dhash": "bb91e9d164484945",
+      "status": "parsed"
+    },
+    {
+      "exhibit": "exhibit-b",
+      "width": 1086,
+      "height": 1448,
+      "pixel_sha256": "7bda390cef4a8ba43c6dc75c79443800e08e35299c5ffca541ad695989f402d9",
+      "dhash": "47e5a3a374f29055",
+      "status": "parsed"
+    },
+    {
+      "exhibit": "exhibit-c",
+      "width": 1086,
+      "height": 1448,
+      "pixel_sha256": "2e13d99838e6d4bf37f22f84d96e261cdf66cded8c80c014f328baaf7bdb8068",
+      "dhash": "0b4111615979797c",
+      "status": "parsed"
+    },
+    {
+      "exhibit": "exhibit-d",
+      "width": 1312,
+      "height": 1199,
+      "pixel_sha256": "527f05b8a3f9709e513de0e87384e17f341a600596eac7e35a733f308832b3bf",
+      "dhash": "b1776a6172b1d8f1",
+      "status": "parsed"
+    },
+    {
+      "exhibit": "exhibit-e",
+      "width": 1312,
+      "height": 1199,
+      "pixel_sha256": "5e4a49e3195f56d2e4e95eb9535a9215a90bc22797fc809978f50e4103af91a5",
+      "dhash": "303032a13134b1ab",
+      "status": "parsed"
+    }
+  ],
+  "comparisons": [
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-b",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 29,
+      "normalized_rmse": 0.2779
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-c",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 28,
+      "normalized_rmse": 0.255392
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-d",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 29,
+      "normalized_rmse": 0.328616
+    },
+    {
+      "exhibit_a": "exhibit-a",
+      "exhibit_b": "exhibit-e",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 36,
+      "normalized_rmse": 0.548944
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-c",
+      "same_dimensions": true,
+      "identical_pixels": false,
+      "dhash_distance": 29,
+      "normalized_rmse": 0.205219
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-d",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 26,
+      "normalized_rmse": 0.305617
+    },
+    {
+      "exhibit_a": "exhibit-b",
+      "exhibit_b": "exhibit-e",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 31,
+      "normalized_rmse": 0.51233
+    },
+    {
+      "exhibit_a": "exhibit-c",
+      "exhibit_b": "exhibit-d",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 29,
+      "normalized_rmse": 0.288652
+    },
+    {
+      "exhibit_a": "exhibit-c",
+      "exhibit_b": "exhibit-e",
+      "same_dimensions": false,
+      "identical_pixels": false,
+      "dhash_distance": 30,
+      "normalized_rmse": 0.551468
+    },
+    {
+      "exhibit_a": "exhibit-d",
+      "exhibit_b": "exhibit-e",
+      "same_dimensions": true,
+      "identical_pixels": false,
+      "dhash_distance": 25,
+      "normalized_rmse": 0.527786
+    }
+  ]
+}
