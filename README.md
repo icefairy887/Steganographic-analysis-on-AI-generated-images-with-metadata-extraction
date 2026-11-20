@@ -18,7 +18,7 @@ The repository contains five extensionless PNG exhibits (`exhibit-a` through `ex
 
 ```text
 .
-|-- SKILL.md          Codex workflow and interpretation rules
+|-- .agents/skills/ai-image-steg-forensics/\n|   `-- SKILL.md      Codex workflow and interpretation rules
 |-- sources/          Original extensionless PNG exhibits
 |-- scripts/          Numbered forensic analyses
 |-- reports/          Preserved baseline results
