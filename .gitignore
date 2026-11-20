@@ -1,1 +1,37 @@
-# Intentionally tracking the complete project snapshot.
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# New local analysis runs
+work/
+reports/*_analysis_*.json
+reports/*_difference_*.png
+reports/*_heatmap_*.png
+reports/forensic_runs.log
+reports/*.bin
+reports/*.jpg
+
+# Build and coverage output
+build/
+dist/
+htmlcov/
+.coverage
+coverage.xml
